@@ -1,0 +1,55 @@
+*
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.3rem;
+}
+
+h1
+{
+    color: rgba(37, 36, 36, 0.89);
+    font-size: 2rem;
+}
+title
+{
+    color: brown;
+    font-size: 3rem;
+}
+#grid
+{
+    display: grid;
+    grid-template-columns: repeat(3,4rem);
+    grid-template-rows: repeat(3,4rem);
+    margin: 2rem auto ;
+    gap: 5px;
+}
+.case
+{
+    border: 1px solid  rgba(37, 36, 36, 0.89);
+    cursor: pointer;
+    font-size: 3rem;
+    padding: 30px;
+    border-radius: 5px;
+    height: 3px;
+    
+}
+h2
+{
+    font-size: 1.5rem;
+    color: rgba(37, 36, 36, 0.89);
+    text-decoration: underline;
+}
+p
+{
+    color: blue;
+}
+#score1 ,#score2 ,#matchNull ,#joueur
+{
+    color: black;
+}
+
+
+
+
